@@ -5,7 +5,9 @@ import PropTypes from 'prop-types'
 function Skills({title,img,text}) {
   return (
     <div>
-      <h2>{text}</h2>
+      <img src={img} alt="" />
+      <h2>{title}</h2>
+      <p>{text}</p>
     </div>
   )
 }
