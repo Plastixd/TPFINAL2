@@ -8,6 +8,8 @@ import Subskills from "./Components/Subskills";
 import Portfolio from "./Components/Portfolio";
 import Aboutme from "./Components/Aboutme";
 import Footer from "./Components/Footer";
+import { Box, Flex } from '@chakra-ui/react';
+
 
 function App() {
 
@@ -53,7 +55,7 @@ function App() {
     <ChakraProvider>
       <section>
       <Header/>
-    
+      <Box align="center" width="100%" paddingTop="190px" backgroundColor="white" borderColor="pink" border="1px">
         <Hero/>
         <h2>Speciality</h2>
         {Specialitydata.map(elemento=><Speciality title={elemento.title} text={elemento.text}/>)}
@@ -64,6 +66,7 @@ function App() {
         <Portfolio/>
         <button>Ver mas</button>
         <Aboutme/>
+      </Box>
         <Footer/>
       </section>
     </ChakraProvider>
