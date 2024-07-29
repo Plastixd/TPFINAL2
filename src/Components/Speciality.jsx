@@ -1,11 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-function Speciality(props) {
+
+function Speciality({title, text}) {
   return (
         <section> 
-            <h3>UI & UX Design</h3>
-            <p>Mi pasatiempo favorito es el diseño. Trabajo como diseñador no porque me traiga dinero, sino principalmente porque me gusta. Tengo buen gusto y un ojo agudo.</p>
+            <h3>{title}</h3>
+            <p>{text}</p>
         </section>
   )
 }

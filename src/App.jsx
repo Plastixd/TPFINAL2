@@ -15,27 +15,38 @@ function App() {
     img: "./public/html5.svg",
     text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
   },{
-    title: "HTML5",
-    img: "./public/html5.svg",
-    text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
+    title: "CSS",
+    img: "./public/css.svg",
+    text: "Sobre CSS puedo trabajar para estilizar el contenido de una página, valiéndome de funciones y atributos varios; como flex que creo manejar bien, animaciones para una página, y demás.",
   },{
-    title: "HTML5",
-    img: "./public/html5.svg",
-    text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
+    title: "PHP",
+    img: "./public/php.svg",
+    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.",
   },{
-    title: "HTML5",
-    img: "./public/html5.svg",
-    text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
+    title: "Python",
+    img: "./public/py.svg",
+    text: "Durante el primer año de cursado en la carrera de Ingeniería en Sistemas de la Información, en la materia Algoritmos y estrucutra de datos, el lenguaje que utilizamos para programar es Python, estoy muy familiarizado desde ese momento con Python.",
   },{
-    title: "HTML5",
-    img: "./public/html5.svg",
-    text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
+    title: "Java Script",
+    img: "./public/js.svg",
+    text: "Varias veces incursioné en el aprendizaje de Java Script, y a pesar de tener los conocimientos básicos, puedo utilizar esta información para complementar algún sitio web. En el curso de este año aprenderé más sobre esto."
+    },{
+    title: "SQL",
+    img: "./public/SQL.svg",
+    text: "Sobre SQL solo realicé un curso de DBA1, en el año 2023. Aprendí lo básico sobre bases de datos relacionales, y cómo trabajar sobre ellas. La mayoría del conocimiento que tengo en SQL es gracias a mi trabajo."
+  },]
+
+  const Specialitydata= [{
+    title: "UI & UX Design",
+    text: "Mi pasatiempo favorito es el diseño. Trabajo como diseñador no porque me traiga dinero, sino principalmente porque me gusta. Tengo buen gusto y un ojo agudo."
   },{
-    title: "HTML5",
-    img: "./public/html5.svg",
-    text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
-  },
-]
+    title: "Front-end Developer",
+    text: "Otra de mis actividades favoritas es el desarrollo frontend. Puedo crear un sitio web de cualquier complejidad para ti y adaptarlo. Escribo un código claro que es fácil de trabajar en el futuro."
+  },{
+    title: "Back-end Developer",
+    text: "Soy nuevo en el backend, pero puedo hacer cosas simples que se necesitan el 90% del tiempo."
+  } 
+  ]
 
   return (
     <section>
@@ -43,7 +54,7 @@ function App() {
       <Header/>
       <Hero/>
       <h2>Speciality</h2>
-      <Speciality/>
+      {Specialitydata.map(elemento=><Speciality title={elemento.title} text={elemento.text}/>)}
       <h2>Skills</h2>
       {Skillsdata.map(elemento=><Skills title={elemento.title} img={elemento.img} text={elemento.text}/>)}
       <Subskills/>
