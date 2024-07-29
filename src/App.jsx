@@ -1,4 +1,5 @@
 import React from "react";
+import { ChakraProvider } from '@chakra-ui/react'
 import Header from "./Components/Header"
 import Hero from "./Components/Hero";
 import Speciality from "./Components/Speciality";
@@ -49,21 +50,23 @@ function App() {
   ]
 
   return (
-    <section>
-      <h1>HOLA MUNDO</h1>
+    <ChakraProvider>
+      <section>
       <Header/>
-      <Hero/>
-      <h2>Speciality</h2>
-      {Specialitydata.map(elemento=><Speciality title={elemento.title} text={elemento.text}/>)}
-      <h2>Skills</h2>
-      {Skillsdata.map(elemento=><Skills title={elemento.title} img={elemento.img} text={elemento.text}/>)}
-      <Subskills/>
-      <h2>Portfolio</h2>
-      <Portfolio/>
-      <button>Ver mas</button>
-      <Aboutme/>
-      <Footer/>
-    </section>
+    
+        <Hero/>
+        <h2>Speciality</h2>
+        {Specialitydata.map(elemento=><Speciality title={elemento.title} text={elemento.text}/>)}
+        <h2>Skills</h2>
+        {Skillsdata.map(elemento=><Skills title={elemento.title} img={elemento.img} text={elemento.text}/>)}
+        <Subskills/>
+        <h2>Portfolio</h2>
+        <Portfolio/>
+        <button>Ver mas</button>
+        <Aboutme/>
+        <Footer/>
+      </section>
+    </ChakraProvider>
   );
 }
 
