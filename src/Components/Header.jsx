@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box, Flex, Image} from '@chakra-ui/react';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <Flex align="center" justify="space-between" width="88%"border="1px" borderColor="red">  
       
         <div> {/* Logo de la pagina */}
-            <img src="/logoH.png" alt="" />
+            <Image src="/logoH.png" backgroundColor="white" ></Image>
         </div>
         
         {/* botones del menu */}
