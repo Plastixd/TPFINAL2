@@ -23,7 +23,7 @@ const Specialitydata= [{
 
   return (
     <Box width="88%"border="1px" borderColor="black">
-    <Text align="left" pb="50px" pt="50px" >Especialidades</Text>
+    <Text as="b" textAlign="left" pb="50px" pt="50px"  >Especialidades</Text>
             <div>
               <Box display="flex" flexWrap="wrap" justifyContent="space-between"  border="1px" borderColor="blue">
                 {Specialitydata.map(elemento=><SpecialityCards title={elemento.title} text={elemento.text} id={elemento.id}/>)}

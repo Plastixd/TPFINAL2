@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Image, Flex } from '@chakra-ui/react';
+import { Box, Button, Image, Flex, Text} from '@chakra-ui/react';
 
 
 function Hero() {
@@ -15,11 +15,14 @@ function Hero() {
           </Box>
           <Box border="1px" borderColor="red" align="left" alignContent="center">
             <div> 
-                <h1>Mi nombre es <b>Pedro Herrera</b></h1>
-            
-                <h2>Soy: Desarrollador Web Y Diseñador Web</h2>
-            
-            <Button>Contacte conmigo</Button>
+                <Text fontFamily="Roboto" fontSize="40px" spacing="1px">Mi nombre es <b>Pedro Herrera</b></Text> 
+                <Flex>          
+                <Text fontSize="30px" color="#a2a2a2" pl="10px" pr="10px">Soy:</Text> 
+                <Text fontSize="30px"> Desarrollador Web </Text> 
+                <Text fontSize="30px" pr="15px" pl="15px">Y</Text> 
+                <Text fontSize="30px">Diseñador Web</Text>
+                </Flex>
+            <Button mt="20px" fontFamily="Roboto" fontSize="15px"  p="10px 30px" bg="#c4c4c4" borderRadius="5px" border="none" cursor="pointer">Contacte conmigo</Button>
           </div>
           </Box>
         </Flex>

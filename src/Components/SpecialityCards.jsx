@@ -7,8 +7,8 @@ function SpecialityCards({title, text,id}) {
       <div>
         <Box width="320px" display="flex" flexDirection="row" border="1px" borderColor="red" flexWrap="wrap">
           <section key={id}> 
-              <Text align="left" pb="50px" pt="50px">{title}</Text>
-              <Text align="left">{text}</Text>
+              <Text  align="left" fontFamily="roboto" fontSize="25px" pb="50px" pt="50px" >{title}</Text>
+              <Text align="left" fontSize="15px"fontFamily="roboto">{text}</Text>
           </section>
         </Box>
       </div>
