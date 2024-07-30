@@ -1,5 +1,7 @@
 import React from 'react';
-import { Box, Flex, Image} from '@chakra-ui/react';
+import { Box, Flex, Image, Link} from '@chakra-ui/react';
+import "@fontsource/roboto"; 
+
 
 const Header = () => {
   return (
@@ -13,11 +15,16 @@ const Header = () => {
         </div>
         
         {/* botones del menu */}
-        <Flex border="1px" borderColor="blue" gap="15px" alignItems="center"> 
-            <p>Inicio</p>
-            <p>Especialidades</p>
-            <p>Portfolio</p>
-            <p>Contacto</p>
+        <Flex fontFamily="'Roboto'"
+          fontWeight="600"
+          href="#" border="1px" borderColor="blue" mr="15px"gap="15px" alignItems="center"> 
+          
+          <Link href="#" style={{ textDecoration: 'none' }}> Inicio </Link>
+          <Link href="#" style={{ textDecoration: 'none' }}> Especialidades </Link>
+          <Link href="#" style={{ textDecoration: 'none' }}> Portfolio </Link>
+          <Link href="#" style={{ textDecoration: 'none' }}> Contacto </Link>
+        
+            
         </Flex>
       </Flex>
       </nav>
