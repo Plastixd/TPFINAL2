@@ -8,7 +8,7 @@ import Portfolio from "./Components/Portfolio";
 import Aboutme from "./Components/Aboutme";
 import Footer from "./Components/Footer";
 import Speciality from "./Components/Speciality";
-import { Box, Flex } from '@chakra-ui/react';
+import { Box,} from '@chakra-ui/react';
 
 
 function App() {
@@ -17,15 +17,16 @@ function App() {
     <ChakraProvider>
       <section>
       <Header/>
-      <Box align="center" width="100%" paddingTop="190px" backgroundColor="white" borderColor="pink" border="1px">
+      <Box align="center" width="100%" paddingTop="190px" backgroundColor="white" borderColor="pink" border="">
         <Hero/>
         <Speciality/>
         <Skills/>
         <Subskills/>
         <Portfolio/>
         <Aboutme/>
-      </Box>
+      
         <Footer/>
+      </Box>
       </section>
     </ChakraProvider>
   );
