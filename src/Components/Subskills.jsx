@@ -1,18 +1,18 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Box, Flex,Text, Image} from '@chakra-ui/react';
 
-function Subskills(props) {
+
+function Subskills({img,text}) {
+  
   return (
-    <div>
-      <img src="" alt="" />
-      <h2>Figma</h2>
-    </div>
+      <div>
+        <Flex pr="80px">
+          <Image src={img} width="45px"></Image>
+          <Text>{text}</Text>
+        </Flex>
+      </div>
+      
   )
 }
-
-Subskills.propTypes = {
-
-}
-
 export default Subskills
 

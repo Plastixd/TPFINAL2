@@ -1,6 +1,7 @@
 import React from 'react'
 import SkillsCards from './SkillsCards'
-import { Box, Text } from '@chakra-ui/react';
+import Subskills from './Subskills';
+import { Box, Text,Flex } from '@chakra-ui/react';
 
 function Skills() {
 
@@ -36,6 +37,20 @@ const Skillsdata = [{
     text: "Sobre SQL solo realicé un curso de DBA1, en el año 2023. Aprendí lo básico sobre bases de datos relacionales, y cómo trabajar sobre ellas. La mayoría del conocimiento que tengo en SQL es gracias a mi trabajo."
     }]
 
+const Subskillsdata = [{
+    id: 1,
+    img: "./figma.svg",
+    text: "Figma"
+},{
+    id: 2,
+    img: "./PS.svg",
+    text: "Adobe Photoshop"
+},{
+    id: 3,
+    img: "./XD.svg",
+    text: "Adobe XD"
+}]
+
   return (
     <Box width="88%"border="1px" borderColor="black">
     <Text align="left" pb="50px" pt="50px" >Skills</Text>
@@ -45,6 +60,9 @@ const Skillsdata = [{
             {Skillsdata.map(elemento=><SkillsCards title={elemento.title} img={elemento.img} text={elemento.text}/>)}
         </Box>
         </div>
+        <Flex pt="120px" pr="80px">
+            {Subskillsdata.map(elemento=><Subskills text={elemento.text} img={elemento.img}/>)}
+        </Flex>
     </Box>
 
   )

@@ -20,12 +20,9 @@ function App() {
       <Box align="center" width="100%" paddingTop="190px" backgroundColor="white" borderColor="pink" border="1px">
         <Hero/>
         <Speciality/>
-        <h2>Skills</h2>
         <Skills/>
         <Subskills/>
-        <h2>Portfolio</h2>
         <Portfolio/>
-        <button>Ver mas</button>
         <Aboutme/>
       </Box>
         <Footer/>
