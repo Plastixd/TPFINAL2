@@ -5,10 +5,10 @@ function SpecialityCards({title, text,id}) {
   
   return (
       <div>
-        <Box width="320px" display="flex" flexDirection="row" border="1px" borderColor="red" flexWrap="wrap">
+        <Box width="280px" display="flex" flexDirection="row" flexWrap="wrap">
           <section key={id}> 
-              <Text  align="left" fontFamily="roboto" fontSize="25px" pb="50px" pt="50px" >{title}</Text>
-              <Text align="left" fontSize="15px"fontFamily="roboto">{text}</Text>
+              <Text  align="left" fontFamily="roboto" fontSize="25px" color="black" pb="50px" pt="50px" >{title}</Text>
+              <Text align="left" fontSize="15px"fontFamily="roboto" color="black" >{text}</Text>
           </section>
         </Box>
       </div>

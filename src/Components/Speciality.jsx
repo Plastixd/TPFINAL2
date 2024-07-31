@@ -22,10 +22,10 @@ const Specialitydata= [{
     }]
 
   return (
-    <Box width="88%"border="1px" borderColor="black">
-    <Text as="b" textAlign="left" pb="50px" pt="50px"  >Especialidades</Text>
+    <Box width="88%" pb="100px">
+    <Text fontSize="30px" fontFamily="roboto" textAlign="left" pb="50px" pt="50px"  > <b>Especialidades</b></Text>
             <div>
-              <Box display="flex" flexWrap="wrap" justifyContent="space-between"  border="1px" borderColor="blue">
+              <Box display="flex" flexWrap="wrap" justifyContent="space-between" >
                 {Specialitydata.map(elemento=><SpecialityCards title={elemento.title} text={elemento.text} id={elemento.id}/>)}
               </Box>
             </div>

@@ -52,11 +52,11 @@ const Subskillsdata = [{
 }]
 
   return (
-    <Box width="88%"border="1px" borderColor="black">
-    <Text align="left" pb="50px" pt="50px" >Skills</Text>
+    <Box width="88%">
+    <Text fontSize="30px" fontFamily="roboto" textAlign="left" pb="50px" pt="50px" color="black" ><b>Skills</b></Text>
     
         <div>
-        <Box display="flex" flexWrap="wrap" justifyContent="space-between"  border="1px" borderColor="blue" gap="40px">
+        <Box display="flex" flexWrap="wrap" justifyContent="space-between" gap="40px">
             {Skillsdata.map(elemento=><SkillsCards title={elemento.title} img={elemento.img} text={elemento.text}/>)}
         </Box>
         </div>
