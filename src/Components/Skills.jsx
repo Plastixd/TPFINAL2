@@ -7,12 +7,12 @@ function Skills() {
 
 const Skillsdata = [{
     title: "HTML5",
-    img: "/html5.svg",
+    img: "/HTML5.svg",
     text: "Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.",
     id: "1",
     },{
     title: "CSS",
-    img: "/css.svg",
+    img: "/CSS.svg",
     text: "Sobre CSS puedo trabajar para estilizar el contenido de una página, valiéndome de funciones y atributos varios; como flex que creo manejar bien, animaciones para una página, y demás.",
     id: "2",
     },{
@@ -33,7 +33,7 @@ const Skillsdata = [{
     },{
         id: "6",
     title: "SQL",
-    img: "/SQL.svg",
+    img: "/sql.svg",
     text: "Sobre SQL solo realicé un curso de DBA1, en el año 2023. Aprendí lo básico sobre bases de datos relacionales, y cómo trabajar sobre ellas. La mayoría del conocimiento que tengo en SQL es gracias a mi trabajo."
     }]
 
