@@ -47,19 +47,19 @@ pt="120px"></Input>
             <Text align="left">Siempre estoy dispuesto a considerar tu propuesta. Solo necesitas escribirme. Si no te sientes cómodo haciéndolo a través de un sitio web, aquí tienes las redes que pueden ayudarte.</Text>
             <Flex>
             <Flex textAlign="center" mt={10} gap="10px" >
-                <Link href="#" isExternal _hover={{ textDecoration: 'none' }}>
+                <Link href="https://facebook.com" isExternal _hover={{ textDecoration: 'none' }}>
                 <Image src="/facebook.svg" transition="transform 0.3s" 
             _hover={{ transform: 'scale(1.1)' }} height="20px"alt="" />
                 </Link>
-                <Link href="#" isExternal _hover={{ textDecoration: 'none' }}>
+                <Link href="https://instagram.com" isExternal _hover={{ textDecoration: 'none' }}>
                 <Image  src="/instagram.svg" transition="transform 0.3s" 
             _hover={{ transform: 'scale(1.1)' }} height="20px" alt=""/>
                 </Link>
-                <Link href="#" isExternal _hover={{ textDecoration: 'none' }}>
+                <Link href="https://telegram.web" isExternal _hover={{ textDecoration: 'none' }}>
                 <Image src="/telegram.svg" transition="transform 0.3s" 
             _hover={{ transform: 'scale(1.1)' }}  height="20px" alt="" />
                 </Link>
-                <Link href="#" isExternal _hover={{ textDecoration: 'none' }}>
+                <Link href="https://www.behance.net" isExternal _hover={{ textDecoration: 'none' }}>
                 <Image src="/behance.svg" transition="transform 0.3s" 
             _hover={{ transform: 'scale(1.1)' }}  height="20px" alt="" />
                 </Link>
