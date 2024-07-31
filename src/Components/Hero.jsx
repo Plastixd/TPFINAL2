@@ -9,7 +9,7 @@ function Hero() {
       <Box>
         <Flex align="center" justify="space-between" flexDirection="row-reverse" width="88%">
           
-          <Image mb="80px"src="/herreracara.jpeg" alt="Pedro Herrera" borderRadius="20px" width="350px" height="350px"/>
+          <Image display={{ base: 'none', lg: 'block' }}  mb="80px"src="/herreracara.jpeg" alt="Pedro Herrera" borderRadius="20px" width="350px" height="350px"/>
          
           <Box align="left" alignContent="center">
                 <Text fontFamily="Roboto" fontSize="40px" spacing="1px">Mi nombre es <b>Pedro Herrera</b></Text> 

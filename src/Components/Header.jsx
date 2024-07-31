@@ -18,10 +18,10 @@ const Header = () => {
         <Flex fontFamily="'Roboto'"
           fontWeight="600" mr="15px"gap="15px" alignItems="center"> 
           
-          <Link href="#" style={{ textDecoration: 'none' }}> Inicio </Link>
-          <Link href="#" style={{ textDecoration: 'none' }}> Especialidades </Link>
-          <Link href="#" style={{ textDecoration: 'none' }}> Portfolio </Link>
-          <Link href="#" style={{ textDecoration: 'none' }}> Contacto </Link>
+          <Link href="#" transition="transform 0.3s" _hover={{ transform: 'scale(1.1)' }}  style={{ textDecoration: 'none' }}> Inicio </Link>
+          <Link href="#" transition="transform 0.3s" _hover={{ transform: 'scale(1.1)' }}  style={{ textDecoration: 'none' }}> Especialidades </Link>
+          <Link href="#" transition="transform 0.3s" _hover={{ transform: 'scale(1.1)' }}  style={{ textDecoration: 'none' }}> Portfolio </Link>
+          <Link href="#" transition="transform 0.3s" _hover={{ transform: 'scale(1.1)' }}  style={{ textDecoration: 'none' }}> Contacto </Link>
         
             
         </Flex>
