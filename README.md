@@ -25,3 +25,8 @@ La página es responsive a partir de 1280 píxeles, que es la resolución con la
 
 Puedes ver el proyecto desplegado [aquí](https://tpfinal-2.vercel.app/).
 
+## Conclusiones
+
+Durante este trabajo me familiaricé con las prácticas de programación en React, sobre todo con la familiarización con la consola para resolver errores. Además mientras más avanzaba en la programación de la web, menos repetía código, y más rápido realizaba configuraciones de estilo.
+
+Considero que fue una buena oportunidad para llevar a cabo un proyecto serio en el que emplear los conocimientos que adquirimos durante el curso.
